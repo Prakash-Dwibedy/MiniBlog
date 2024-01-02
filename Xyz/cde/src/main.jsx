@@ -12,6 +12,7 @@ import AllPosts from './pages/AllPosts.jsx'
 import Addpost from './pages/Addpost.jsx'
 import EditPost from './pages/EditPost.jsx'
 import Post from './pages/Post.jsx'
+import Homefir from './pages/Homefir.jsx'
 
 
 const router = createBrowserRouter([
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
     children: [
         {
             path: "/",
-            element: <Home />,
+            element: <Homefir />,
         },
         {
             path: "/login",
