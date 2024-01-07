@@ -14,7 +14,7 @@ function Header() {
 
     const navItems = [
       {
-        name: 'Homefir',
+        name: 'Home',
         slug: "/",
         active: true,
       },

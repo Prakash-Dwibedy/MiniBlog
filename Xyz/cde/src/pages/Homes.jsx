@@ -3,7 +3,7 @@ import appwriteService from "../appwrite/conf";
 import {Container} from '../componets'
 import {PostCard} from '../componets'
 
-function Homefir() {
+function Homes() {
 //     const [posts, setPosts] = useState([])
 
 //     useEffect(() => {
@@ -31,4 +31,4 @@ function Homefir() {
         }
     
 
-export default Homefir
+export default Homes
